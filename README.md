@@ -8,7 +8,7 @@ https://mui.com/x/react-data-grid/getting-started/
 <br />
 https://fullcalendar.io/docs/react
 <br />
-https://nivo.rocks/pie/  - grafik
+https://nivo.rocks/pie/  
 <br />
 https://www.npmjs.com/org/nivo
 <br />
