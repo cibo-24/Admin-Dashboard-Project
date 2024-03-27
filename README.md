@@ -2,7 +2,7 @@
 
 Bu projede kullanılan materyaller:
 
-https://mui.com/material-ui/
+https://mui.com/material-ui
 <br />
 https://mui.com/x/react-data-grid/getting-started/
 <br />
