@@ -1,25 +1,23 @@
 # Admin-Dashboard-Project
 
-Bu projede kullanılan materyaller:
+Bu projede React, Material UI, Data Grid, Light ve Dark Mode kullanılmıştır.
 
-https://mui.com/material-ui
-<br />
-https://mui.com/x/react-data-grid/getting-started/
-<br />
-https://fullcalendar.io/docs/react
-<br />
-https://nivo.rocks/pie/ 
-<br />
-https://www.npmjs.com/org/nivo
-<br />
-https://www.npmjs.com/package/react-pro-sidebar?activeTab=versions
-<br />
-https://www.npmjs.com/package/react-router-dom
-<br />
-https://www.npmjs.com/package/formik
-<br />
-https://www.npmjs.com/package/yup
-<br />
-https://www.npmjs.com/package/fullcalendar
-<br />
-https://fonts.google.com/
+Admin Dashboard içerisinde;
+
+ - Nivo Charts
+ - Formik
+ - Yup
+ - Full Calendar
+ - Data Grid
+ - 4 adet Veri Gösteren Chart
+ - 3 adet Veri Tablosu
+ - Sıkça Sorulan Sorular
+ - Form Sayfası
+ - Takvim Sayfası
+
+
+Admin Dashboard Project Images:
+
+<img src="../Admin-Dashboard-Project/admin-dashboard/public/assets/project-media/light.png" alt="">
+
+
