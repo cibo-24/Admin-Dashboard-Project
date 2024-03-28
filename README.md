@@ -19,5 +19,9 @@ Admin Dashboard içerisinde;
 Admin Dashboard Project Images:
 
 <img src="./admin-dashboard/project-media/light.png" alt="light">
-
+<img src="./admin-dashboard/project-media/dark.png" alt="dark">
+<img src="./admin-dashboard/project-media/manager.jpeg" alt="manager">
+<img src="./admin-dashboard//project-media/calendar.png" alt="calendar">
+<img src="./admin-dashboard//project-media/pie.png" alt="pie">
+<img src="./admin-dashboard//project-media/geo.png" alt="geo">
 
