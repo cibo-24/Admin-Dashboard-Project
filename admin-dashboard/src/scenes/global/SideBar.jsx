@@ -16,6 +16,8 @@ import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -29,7 +31,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
       onClick={() => setSelected(title)}
       icon={icon}
     >
-      <Link to={to} style={{ textDecoration: 'none', color: 'inherit' }}>
+      <Link to={to} style={{ textDecoration: "none", color: "inherit" }}>
         <Typography>{title}</Typography>
       </Link>
     </MenuItem>
@@ -85,7 +87,7 @@ const Bar = () => {
                 alignItems="center"
                 ml="15px"
               >
-                <Typography color={colors.grey[100]} sx={{fontSize:"18px"}}>
+                <Typography color={colors.grey[100]} sx={{ fontSize: "18px" }}>
                   Admin Dashboard
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
@@ -221,6 +223,29 @@ const Bar = () => {
               title="Geography Chart"
               to="/geography"
               icon={<MapOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+
+            <Typography
+              variant="h6"
+              color={colors.grey[300]}
+              sx={{ m: "15px 0 5px 20px" }}
+            >
+              MySocialMedia
+            </Typography>
+
+            <Item
+              title="MyGitHub"
+              to="https://github.com/cibo-24"
+              icon={<GitHubIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="MyLinkedin"
+              to="https://www.linkedin.com/in/cibokenan24/"
+              icon={<LinkedInIcon />}
               selected={selected}
               setSelected={setSelected}
             />
