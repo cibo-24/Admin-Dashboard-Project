@@ -18,6 +18,6 @@ Admin Dashboard içerisinde;
 
 Admin Dashboard Project Images:
 
-<img src="../Admin-Dashboard-Project/admin-dashboard/public/assets/project-media/light.png" alt="stylesheet">
+<img src="../Admin-Dashboard-Project/admin-dashboard/public/assets/project-media/light.png" alt="light">
 
 
